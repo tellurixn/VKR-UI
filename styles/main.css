@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    background-color:#1e3685;
+    
+}
+
+.nav-link:hover{
+    color:silver;
+    
+}
+
+.nav-link{
+    color: white;
+}
+
+.main-content {
+
+    padding: 20px;
+}
+
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.request-form{
+    color: #003366;
+    border-color:#0059b3;
+}
