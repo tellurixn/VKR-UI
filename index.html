@@ -39,8 +39,58 @@
         <h1>Новый запрос</h1>
         <div class="content">
             <form method="post" action="#" class="request-form">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="number" class="form-control" id="requestId" 
+                placeholder="Идентификатор запроса, сформированный запрашивающей стороной">
+
+                <span>Дата снятия с учета</span>
+                <input type="date" class="form-control" id="removalDate">
+
+                <input type="number" class="form-control" id="INN" 
+                placeholder="ИНН ФЛ">
+
+                <span>Дата рождения</span>
+                <input type="date" class="form-control" id="birthday">
+
+                <span>Дата смерти</span>
+                <input type="date" class="form-control" id="deathday">
+
+                <input type="text" class="form-control" id="providerMnemonic"
+                placeholder="Мнемоника поставщика">
+
+                <input type="number" class="form-control" id="actNumber"
+                placeholder="Номер записи акта о смерти">
+
+                <span>Дата составления акта о смерти</span>
+                <input type="date" class="form-control" id="actCreatedDate">
+
+                <span>Полное наименование органа записи актов гражданского состояния (далее – ЗАГС) или многофункционального центра предоставления государственных и муниципальных услуг, которыми произведена государственная регистрация смерти</span>
+                <input type="text" class="form-control" id="ZAGS">
+
+                <span>Код органа ЗАГС</span>
+                <input type="number" class="form-control" id="ZAGSCode">
+
+                <label>Данные физического лица</label>
+                <input type="text" class="form-control" id="LastName" 
+                placeholder="Фамилия">
+
+                <input type="text" class="form-control" id="FirstName" 
+                placeholder="Имя">
+
+                <input type="text" class="form-control" id="Patronymic" 
+                placeholder="Отчество">
+
+                <label>Сведения о документе, удостоверяющем личность физического лица</label>
+                <input type="text" class="form-control" id="documentCode" 
+                placeholder="Код вида документа, удостоверяющего личность">
+
+                <input type="text" class="form-control" id="documentNumber" 
+                placeholder="Серия и номер документа, удостоверяющего личность">
+
+                <span>Дата выдачи документа</span>
+                <input type="date" class="form-control" id="documentDate">
+
             </form>
+            <button type="submit" class="btn btn-primary">Отправить</button>
         </div>
     </div>
 
