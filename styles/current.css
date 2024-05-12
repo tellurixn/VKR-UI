@@ -43,11 +43,30 @@ h6{
     display: flex;
 }
 
-#submitButtonContainer{
-    display: flex;
-    justify-content: center;
+.dropdown {
+    width: 100%; /* Устанавливаем ширину dropdown */
+    max-width: 100%; /* Ограничиваем максимальную ширину */
 }
 
-/* #ZAGSContainer{
-    display: none !important;
+.dropdown-menu {
+    width: 100%; /* Устанавливаем ширину dropdown-menu */
+}
+
+.dropdown-item {
+    white-space: normal; /* Разрешаем перенос текста */
+}
+
+/* .btn{
+    max-width: 350px;
 } */
+
+#Filter{
+    padding: 10px;
+    border: thin solid #0059b3;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#historyTable{
+    margin-top: 20px;;
+}
