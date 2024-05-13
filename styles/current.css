@@ -8,9 +8,10 @@ h1,h2,h6{
     text-align: center;
 }
 
-h6{
+.content h6{
     font-weight: bold;
 }
+
 
 .navbar{
     background-color:#1e3685;
@@ -30,7 +31,6 @@ h6{
 
     padding: 20px;
 }
-
 
 .content {
     background-color: white;
@@ -56,10 +56,6 @@ h6{
     white-space: normal; /* Разрешаем перенос текста */
 }
 
-/* .btn{
-    max-width: 350px;
-} */
-
 #Filter{
     padding: 10px;
     border: thin solid #0059b3;
@@ -69,4 +65,16 @@ h6{
 
 #historyTable{
     margin-top: 20px;;
+}
+
+#adapterStatus{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    
+}
+
+#adapterStatusIcon{
+    color: rgb(75, 179, 75);
 }

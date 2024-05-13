@@ -60,3 +60,17 @@ iconUpRequestData.addEventListener('click', function() {
     iconUpRequestData.style.display = 'none';
     iconDownRequestData.style.display = 'inline';
 });
+
+var addDocInfoButton = document.getElementById('addDocInfoButton');
+var DocInfo = document.getElementById('DocInfo');
+
+addDocInfoButton.addEventListener('click', function(){
+    if(DocInfo.style.display === 'none'){
+        DocInfo.style.display = 'block';
+        addDocInfoButton.textContent ='Удалить';
+    }
+    else{
+        DocInfo.style.display = 'none';
+        addDocInfoButton.textContent ='Добавить';
+    }
+})
